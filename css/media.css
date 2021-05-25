@@ -1,0 +1,346 @@
+@media (max-width: 499.97px){
+    /* Section Preview */
+    .preview-box {
+        width: 225px;
+        height: 225px;
+        border: 3px solid #ffffff;
+    }
+    .preview-title {
+        font-size: 45px;
+    }
+    .preview-link {
+        font-size: 16px;
+    }
+    .preview-text {
+        font-size: 12px;
+    }
+
+    /* SubSection annual-season*/
+    .title-season {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    .title-season::after {
+        width: 100px;
+        margin: 35px auto;
+        height: 1px;
+    }
+    .card-season {
+        width: 170px;
+    }
+    .bg-card-season-img {
+        height: 210px;
+    }
+    .card-season-img {
+        height: 170px;
+    }
+    .card-season-title {
+        font-size: 16px;
+        padding: 15px 0 5px 0;
+    }
+    .card-season-price {
+        font-size: 14px;
+    }
+
+    /* SubSection catalog*/
+    .catalog-title{
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    .catalog-title::after {
+        width: 100px;
+        height: 1px;
+    }
+    .button-catalog {
+        width: 125px;
+        height: 43px;
+        font-size: 15px;
+    }
+
+    /* Section Old-collection */
+    .old-collection-title {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    .old-collection-title::after {
+        width: 100px;
+        height: 1px;
+    }
+    .old-collection-text {
+        font-size: 13px;
+    }
+    .old-collection-button{
+        width: 270px;
+        height: 43px;
+        font-size: 15px;
+    }
+
+    /* Section New-arrivals */
+    .new-arrivals-title {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    .new-arrivals-title::after {
+        width: 100px;
+        height: 1px;
+    }
+
+    /* Section Brands */
+    .title-brands{
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    .title-brands::after {
+        width: 100px;
+        height: 1px;
+    }
+    .logo-brands-img {
+        max-width: 200px;
+    }
+    .brands .owl-carousel .owl-next,
+    .brands .owl-carousel .owl-prev {
+        top: 25%;
+    }
+
+    /* Footer */
+    .shop-title {
+        font-size: 20px;
+    }
+    .shop-text {
+        font-size: 12px;
+    }
+    .all-categories {
+        margin-top: 12px !important;
+    }
+    .categories-title{
+        font-size: 20px;
+    }
+    .mailing-container {
+        min-width: 240px;
+    }
+    .mailing-title{
+        font-size: 20px;
+    }
+    .mailing-text{
+        font-size: 12px;
+        margin-top: 12px !important;
+    }
+    .copyright-left{
+        font-size: 10px;
+    }
+    .copyright-right{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 665.97px){
+    /* Footer */
+    .categories-container {
+        max-width: 768px;
+    }
+    .all-categories {
+        flex-direction: column;
+    }
+    .all-categories button {
+        margin: 0 0 10px 0;
+    }
+}
+@media (max-width: 767.97px){
+    /* Header */
+    .top-line{
+        display: none;
+    }
+    .navbar-brand{
+        padding-left: 20px;
+    }
+    .burger-icon{
+        margin-right: 20px;
+    }
+
+    /* SubSection annual-season*/
+    .collection-season{
+        display: none;
+    }
+    .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-indicators{
+        bottom: -60px;
+    }
+
+    /* Footer */
+    .footer-content{
+        padding: 50px 20px !important;
+    }
+}
+
+@media (max-width: 991.97px) {
+    .xl-screen, .logo-brands{
+        display: none !important;
+    }
+
+    /* Footer */
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+    }
+    .shop-container{
+        max-width: 100% !important;
+    }
+    .shop-text{
+        margin-top: 20px;
+    }
+    .categories-container{
+        margin-left: 0 !important;
+        max-width: 100% !important;
+    }
+    .categories-title{
+        margin-top: 35px;
+    }
+    .all-categories{
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .mailing-container{
+        max-width: 100% !important;
+    }
+    .mailing-title{
+        margin-top: 20px;
+    }
+    .mailing-text {
+        margin-top: 20px;
+    }
+    .mail-form {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 1199.97px){
+    /* Section Old-collection */
+    .old-collection{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .old-collection-img{
+        width: 100%;
+    }
+    .old-collection-content{
+        width: 100%;
+    }
+
+    /* Footer */
+    .shop-container{
+        max-width: 275px;
+    }
+    .categories-container{
+        margin-left: 4%;
+    }
+    .mailing-container{
+        max-width: 305px;
+    }
+}
+
+
+
+@media (min-width: 569px){
+    .owl-carousel {
+        padding: 0 calc(50% - 232px);
+    }
+}
+
+@media (min-width: 768px){
+    /* Боковые отступы для всего контента */
+    .top-line, .navbar-expand-md, .footer-container, .copyright {
+        padding: 0 calc(50% - 350px);
+    }
+
+    /* Header */
+    .burger-icon{
+        display: none;
+    }
+    .login-in-menu{
+        display: none;
+    }
+
+    /* SubSection annual-season*/
+    .collection-season-owl-carousel{
+        display: none !important;
+    }
+}
+
+@media (min-width: 807px) {
+    .owl-carousel{
+        padding: 0 calc(50% - 350px);
+    }
+}
+
+@media (min-width: 992px) {
+    /* Боковые отступы для всего контента */
+    .top-line, .navbar-expand-md, .new-arrivals, .brands, .footer-container, .copyright {
+        padding: 0 calc(50% - 470px);
+    }
+
+    .owl-carousel{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px){
+    /* Боковые отступы для всего контента */
+    .top-line, .navbar-expand-md, .new-arrivals, .brands, .footer-container, .copyright {
+        padding: 0 calc(50% - 570px);
+    }
+
+    /* Section New-collection */
+    .new-collection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .annual-season{
+        width: 60%;
+        min-width: 705px;
+    }
+    .carousel-collection-season{
+        display: none;
+    }
+
+    /* SubSection catalog*/
+    .catalog{
+        width: 40%;
+    }
+
+    /* Section New-arrivals */
+    #arrivals .card-season{
+        width: 260px;
+    }
+    #arrivals .bg-card-season-img{
+        height: 325px;
+    }
+    #arrivals .card-season-img{
+        width: 215px !important;
+        height: 214px;
+    }
+}
+
+@media (min-width: 1480px){
+    /* Section New-collection */
+    #big-screen-collection-season .card-season{
+        width: 260px;
+    }
+    #big-screen-collection-season .bg-card-season-img{
+        height: 325px;
+    }
+    #big-screen-collection-season .card-season-img{
+        width: 215px !important;
+        height: 214px;
+    }
+}
+
+
+
+
+
+
