@@ -4,31 +4,16 @@ $(document).ready(function(){
     });
 });
 
-
-$(function() {
-
-    // Owl Carousel
-    let owl = $(".owl-carousel");
-    owl.owlCarousel({
-        loop: true,
-        nav: true,
-        dots: false,
-        navText: [
-            '<i class="fas fa-angle-left"></i>',
-            '<i class="fas fa-angle-right"></i>'
-        ],
-        responsive:{ // уменьшаем кол-во слайдов
-            0:{ // ширина от 0 px
-                items:1
-            },
-            570:{ // ширина от 570 px
-                items:2
-            },
-            807:{ // от 807 px
-                items:3
-            },
-        }
-    });
-
+const swiper = new Swiper('.swiper-container', {
+    loop: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    initialSlide: 3,
+    slideToClickedSlide: true,
+    grabCursor: true,
 });
+
+
+
+
 

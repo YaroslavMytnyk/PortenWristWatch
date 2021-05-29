@@ -15,6 +15,15 @@
         font-size: 12px;
     }
 
+    /* Swiper Csrousel */
+    .swiper-container {
+        height: 265px;
+    }
+    .swiper-slide {
+        max-width: 190px;
+
+    }
+
     /* SubSection annual-season*/
     .title-season {
         font-size: 28px;
@@ -32,14 +41,15 @@
         height: 210px;
     }
     .card-season-img {
-        height: 170px;
+        height: 155px;
+        width: 156px;
     }
     .card-season-title {
-        font-size: 16px;
-        padding: 15px 0 5px 0;
+        font-size: 14px !important;
+        padding: 13px 0 4px 0 !important;
     }
     .card-season-price {
-        font-size: 14px;
+        font-size: 12px !important;
     }
 
     /* SubSection catalog*/
@@ -94,12 +104,12 @@
         width: 100px;
         height: 1px;
     }
-    .logo-brands-img {
-        max-width: 200px;
+    .brands .swiper-brands .swiper-wrapper .swiper-slide .logo-brands-img {
+        width: 204px;
+        height: 75px;
     }
-    .brands .owl-carousel .owl-next,
-    .brands .owl-carousel .owl-prev {
-        top: 25%;
+    .brands .swiper-brands .swiper-wrapper .swiper-slide {
+        max-width: 210px;
     }
 
     /* Footer */
@@ -135,16 +145,25 @@
 
 @media (max-width: 665.97px){
     /* Footer */
+    .footer-content{
+        text-align: center;
+        align-items: center;
+    }
+
     .categories-container {
-        max-width: 768px;
+        max-width: 300px !important;
     }
-    .all-categories {
-        flex-direction: column;
-    }
+
     .all-categories button {
         margin: 0 0 10px 0;
     }
 }
+@media (max-width: 725.97px){
+    .collection-season{
+        display: none !important;
+    }
+}
+
 @media (max-width: 767.97px){
     /* Header */
     .top-line{
@@ -158,9 +177,6 @@
     }
 
     /* SubSection annual-season*/
-    .collection-season{
-        display: none;
-    }
     .carousel-item-next, .carousel-item-prev, .carousel-item.active {
         display: flex;
         justify-content: center;
@@ -194,7 +210,7 @@
     }
     .categories-container{
         margin-left: 0 !important;
-        max-width: 100% !important;
+        max-width: 100%;
     }
     .categories-title{
         margin-top: 35px;
@@ -218,6 +234,15 @@
 }
 
 @media (max-width: 1199.97px){
+
+    .card-season-title {
+        font-size: 16px;
+        padding: 23px 0 8px 0;
+    }
+    .card-season-price {
+        font-size: 14px;
+    }
+
     /* Section Old-collection */
     .old-collection{
         display: flex;
@@ -242,11 +267,9 @@
     }
 }
 
-
-
-@media (min-width: 569px){
-    .owl-carousel {
-        padding: 0 calc(50% - 232px);
+@media (min-width: 726px){
+    .swiper-collection-season{
+        display: none !important;
     }
 }
 
@@ -265,15 +288,7 @@
     }
 
     /* SubSection annual-season*/
-    .collection-season-owl-carousel{
-        display: none !important;
-    }
-}
 
-@media (min-width: 807px) {
-    .owl-carousel{
-        padding: 0 calc(50% - 350px);
-    }
 }
 
 @media (min-width: 992px) {
@@ -282,7 +297,11 @@
         padding: 0 calc(50% - 470px);
     }
 
-    .owl-carousel{
+    .swiper-new-arrivals{
+        display: none !important;
+    }
+
+    .swiper-brands{
         display: none !important;
     }
 }

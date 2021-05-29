@@ -189,10 +189,10 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Playfair Display', serif;
     padding: 80px 0;
 }
 .title-season{
+    font-family: 'Playfair Display', serif;
     font-size: 36px;
     color: #ffffff;
     font-weight: 700;
@@ -226,16 +226,18 @@ nav{
     justify-content: center;
 }
 .card-season-img{
-    width: 190px;
-    height: 189px;
+    width: 177px;
+    height: 176px;
 }
 .card-season-title{
+    font-family: 'Playfair Display', serif;
     font-size: 18px;
     color: #ffffff;
     font-weight: 400;
     padding: 25px 0 10px 0;
 }
 .card-season-price{
+    font-family: 'Playfair Display', serif;
     font-size: 16px;
     color: #D0D0D0;
     font-weight: 700;
@@ -489,18 +491,10 @@ nav{
     justify-content: space-between;
     margin-bottom: 80px;
 }
-.logo-brands-img{
+.brands .logo-brands .logo-brands-img{
     cursor: pointer;
     width: 25%;
     max-width: 250px;
-}
-.logo-brands-owl-carousel{
-    margin-bottom: 50px;
-}
-.brands .owl-carousel .owl-next,
-.brands .owl-carousel .owl-prev {
-    position: absolute;
-    top: 27%;
 }
 
 /* Footer */
@@ -620,54 +614,7 @@ input.mail-input::-webkit-input-placeholder {
     text-decoration: underline;
 }
 
-/*карусель*/
-.owl-item.active{
-    display: flex;
-    justify-content: center;
-}
-.owl-carousel .owl-next,
-.owl-carousel .owl-prev {
-    position: absolute;
-    top: 40%;
-}
-.owl-carousel .owl-prev {
-    left: 0;
-}
-.owl-carousel .owl-next {
-    right: 0;
-}
-.fa-angle-left:before {
-    color: #6c6c6c;
-    font-size: 35px;
-    padding: 17px 20px 17px 20px;
-    cursor: pointer;
-}
-.fa-angle-left:hover::before {
-    color: #FFFFFF !important;
-    background: #7474745e;
-    border-radius: 0 50% 50% 0;
-}
-.fa-angle-right:before {
-    color: #6c6c6c;
-    font-size: 35px;
-    padding: 17px 20px 17px 20px;
-    cursor: pointer;
-}
-.fa-angle-right:hover::before {
-    color: #FFFFFF !important;
-    background: #7474745e;
-    border-radius: 50% 0 0 50%;
-}
 
-.owl-theme .owl-nav [class*=owl-] {
-    margin: 0;
-    padding: 0;
-    cursor: default;
-}
-.owl-theme .owl-nav [class*=owl-]:hover {
-    background: none;
-    color: initial;
-}
 
 @font-face {
 /*PostNoBillsJaffna-Regular*/
@@ -677,4 +624,37 @@ src: url("../fonts/PostNoBillsJaffna-Bold.ttf") format("truetype");
     font-weight: normal;
 }
 
+.swiper-new-arrivals{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 340px;
+}
+
+.swiper-slide {
+    max-width: 235px;
+    display: flex;
+    justify-content: center;
+}
+
+.brands .swiper-brands{
+    width: 100%;
+    height: 88px;
+    margin-bottom: 55px;
+}
+
+.brands .swiper-brands .swiper-wrapper .swiper-slide{
+    max-width: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands .swiper-brands .swiper-wrapper .swiper-slide .logo-brands-img{
+    width: 235px;
+    height: 86px;
+}
 
